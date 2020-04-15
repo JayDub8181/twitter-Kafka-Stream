@@ -4,7 +4,7 @@ Setup Twitter client producing to Kafka Stream and written to Elasticsearch.
 
 ## Twitter Producer Class
 
-### 1. Install Maven Dependencies
+### 1. Install Maven Dependencies (libraries required to compile code)
 In `pom.xml`, add Maven dependencies:
 
 _*Code is current as of April 13, 2020. For latest, click links._
