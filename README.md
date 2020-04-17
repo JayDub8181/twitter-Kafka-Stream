@@ -149,6 +149,20 @@ public KafkaProducer<String,String> createKafkaProducer(){
                 });
             }
 ```
+### 5. Declare Local Variables for
+5.1 API keys and secrets
+* Fill in per your Twitter Developer account
+```
+    String consumerKey=" ";
+    String consumerSecret=" ";
+    String token=" ";
+    String secret=" ";
+```
+5.2 Declare logger variable
+```
+     Logger logger= LoggerFactory.getLogger(twitterProducer.class.getName());
+```
+
 
 
 ### Setup Elasticsearch (WIP)
